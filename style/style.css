@@ -74,7 +74,7 @@
 }
 
 .service-container{
-    height: 100vh;
+    height: 110vh;
     background-image: url('../asset/image/footer-bg.png'),
     linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,.9));
     background-blend-mode: overlay;
@@ -199,6 +199,51 @@
     padding: 50px;
 }
 
+.appointment-container{
+    width: 1000px;
+    height: 12vh;
+    background-color: rgb(228, 58, 58);
+    border-radius: 8px;
+    margin: auto;
+    margin-top: -60px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    padding: 40px;
+}
+
+.call-info-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border-right: 2px solid red;
+    padding: 10px;
+}
+
+.call-info-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.call-description p{
+    font-size: 12px;
+}
+
+.appointment-button{
+    width: 120px;
+    color: black;
+    background-color: white;
+    height: 30px;
+    border: none;
+    border-radius: 18px;
+    font-size: 10px;
+}
 
 
 
