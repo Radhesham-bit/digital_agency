@@ -318,14 +318,19 @@
     margin-bottom: 8px;
 }
 
-.footer-container{
+.footer-sec{
     height: 40vh;
     color: white;
     background-color: black;
+    padding: 80px;
+}
+
+.footer-container{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px;
+    
 }
 
 .usefullinks{
@@ -350,5 +355,10 @@
 .supports ul li a{
     text-decoration: none;
     color: white;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 10px;
 }
 
